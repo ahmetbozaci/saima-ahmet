@@ -1,30 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
 
-  <body>
-    <h1 id="title">Survey Form</h1>
+<head>
+  <meta charset="UTF-8">
+  <title>Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <h1 id="title">Survey Form</h1>
+
+  <p id="description">"Hello World, we are sogtware developers!"</p>
+
+  <form id="survey-form">
+    <label id="name-label"><input id="name" type="text" required placeholder="Enter your name">name</label>
+    <label id="email-label"><input id="email" type="email" required placeholder="Enter your email">email</label>
+    <label id="number-label"><input id="number" type="number" min="1" max="100" required
+        placeholder="Enter your number">number</label>
+    <select id="dropdown">
+      <option value="option 1">Option1</option>
+      <option value="option 2">Option2</option>
+    </select>
+
+    <input type="radio" name="country" value="pakistan">
+    <input type="radio" name="country" value="turkey">
+
+    <input type="checkbox" name="gender" value="male">
+    <input type="checkbox" name="gender" value="female">
     
-    <p id="description">"Hello World, we are sogtware developers!"</p>
 
-     <form id="survey-form">
-       <label  id="name-label"><input id="name" type="text" required placeholder="Enter your name">name</label>
-       <label  id="email-label"><input id="email" type="email" required placeholder="Enter your email">email</label>
-       <label  id="number-label"><input id="number" type="number"  min="1" max="100" required placeholder="Enter your number">number</label>
-       <select id="dropdown">
-         <option value="option 1">Option1</option>
-         <option value="option 2">Option2</option>
-       </select>
-       
-       
-     </form>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </form>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-   
-    <script  src="js/index.js"></script>
-  </body>
+
+  <script src="js/index.js"></script>
+</body>
+
 </html>
